@@ -1,0 +1,22 @@
+[project]
+name = "mortality-multiple-cause-of-death-dataset-2022"
+version = "0.1.0"
+description = "Mortality Multiple Cause of Death Dataset 2022 from the CDC translated to Parquet"
+authors = ["Rémi Kalbe <me@remi.boo>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+lint = "ruff check"
+lintf = "ruff check --fix"
+format = "ruff format"
+build = "python -m src.main"
+
+[dependencies]
+polars = ">=0.20.31,<0.21"
+rich = ">=13.7.1,<13.8"
+python = ">=3.12.3,<3.13"
+ruff = ">=0.4.8,<0.5"
+
+[pypi-dependencies]
+resulty = "*"
