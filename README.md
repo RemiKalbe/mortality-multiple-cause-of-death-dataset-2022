@@ -10,7 +10,7 @@ The original dataset is provided in a complex format, with each row having a fix
 
 To make the dataset more accessible and usable, I have preprocessed it and translated it into a more friendly format. The resulting dataset is stored as a Parquet file, which is a columnar storage format that provides efficient compression, encoding schemes and **retain the schema**.
 
-<!-- For a detailed explanation of the thought process and the preprocessing steps, please refer to my blog post: [Mortality Multiple Cause-of-Death Dataset: A Journey of Data Preprocessing](https://remi.boo/tbd). -->
+For a detailed explanation of the thought process and the preprocessing steps, please refer to my blog post: [Mortality Multiple Cause-of-Death Dataset: A Journey of Data Preprocessing](https://remi.boo/blog/mortality-multiple-cause-of-death-dataset-a-journey-of-data-preprocessing/).
 
 ## Dataset Location
 
